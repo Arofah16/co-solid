@@ -1,16 +1,16 @@
 <template>
   <v-app>
-      <Section1/>
+      <Section2/>
   </v-app>
 </template>
 
 <script>
-import Section1 from './views/Section1';
+import Section2 from './views/Section2';
 
 export default {
   name: 'App',
   components: {
-    Section1
+    Section2
   },
 
   data: () => ({
