@@ -1,20 +1,21 @@
 <template>
   <v-app>
-      <Section1/>
+      <Testimoni/>
   </v-app>
 </template>
 
 <script>
-import Section1 from './views/Section1';
+import Testimoni from './views/Testimoni';
 
 export default {
   name: 'App',
+
   components: {
-    Section1
+    Testimoni,
   },
 
   data: () => ({
     //
-  })
-}
+  }),
+};
 </script>
