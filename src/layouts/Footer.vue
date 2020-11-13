@@ -8,7 +8,7 @@
       transition="fade-transition"
       tag="div"
     > -->
-    <v-footer dark padless>
+    <v-footer dark padless :fixed="isFixed">
       <v-card class="flex" color="#005546" flat tile>
         <v-card-title class="px-5">
           <strong class="subheading"
@@ -36,11 +36,13 @@
 
 <script>
 export default {
+  props:['isFixed'],
   data: () => ({
     isActive: false,
     icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
   }),
-};
+
+}
 </script>
 
 <style>
