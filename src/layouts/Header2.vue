@@ -1,8 +1,8 @@
 <template>
   <section>
     <v-app-bar
-      :style="{ backgroundColor: change_color ? '#005546' : 'transparent' }"
-      fixed
+      color="#005546"
+      
       flat
     >
       <router-link to="/">
@@ -32,28 +32,8 @@
 
 <script>
 export default {
-  name: "Home",
-  data: () => ({
-    scrollPosition: null,
-  }),
-  computed: {
-    change_color() {
-      return this.scrollPosition > 200;
-    },
-  },
-  methods: {
-    updateScroll() {
-      this.scrollPosition = window.scrollY;
-    },
-  },
-  mounted() {
-    window.addEventListener("scroll", this.updateScroll);
-  },
 };
 </script>
 
 <style scoped>
-.change-color {
-  background-color: red;
-}
 </style>

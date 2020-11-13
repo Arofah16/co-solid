@@ -16,6 +16,8 @@
           class="white--text"
           height="45px"
           width="150px"
+          link
+          to="/list-rent"
         >
           Book Now
         </v-btn>
@@ -27,11 +29,3 @@
 <script>
 export default {};
 </script>
-
-<style scoped>
-.b {
-  font-size: 60px;
-  color: #616161;
-  font-family: Arial, Helvetica, sans-serif;
-}
-</style>

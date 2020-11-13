@@ -25,7 +25,7 @@
               spaces and solutions to move <br />
               your business forward.
             </p>
-            <v-btn> BOOK NOW </v-btn>
+            <v-btn link to="/list-rent"> BOOK NOW </v-btn>
           </v-col>
         </v-row>
       </section>
