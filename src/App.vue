@@ -1,11 +1,15 @@
 <template>
   <v-app>
-    <router-view></router-view>
+  <Input/>
+    <!-- <router-view></router-view> -->
   </v-app>
 </template>
 
 <script>
+  import Input from '@/views/Input.vue';
+
 export default {
-  name: "App"
+components:{Input}
 }
+
 </script>

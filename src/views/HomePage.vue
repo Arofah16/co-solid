@@ -8,7 +8,7 @@
       <Section4 />
       <Section5 />
     </v-main>
-    <Footer />
+    <Footer/>
   </div>
 </template>
 
